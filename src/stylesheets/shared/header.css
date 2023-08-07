@@ -1,11 +1,11 @@
-.App {
-  text-align: center;
-}
-
 :root {
   --nav-title-font-size: 3rem;
   --nav-title-font-weight: bold;
   --nav-link-font-weight: 300;
+}
+
+header {
+  padding: 0 150px;
 }
 
 .header-title {
@@ -31,16 +31,24 @@
 
 .header-nav li {
   list-style: none;
+  padding: 20px;
 }
 
-.header-nav li Link {
+/* .header-nav li Link {
+  text-decoration: none;
+  color: var(--color-text-light);
+  font-weight: var(--nav-link-font-weight);
+  padding: 1rem;
+} */
+
+.navbs {
   text-decoration: none;
   color: var(--color-text-light);
   font-weight: var(--nav-link-font-weight);
   padding: 1rem;
 }
 
-.header-nav li Link:hover,
+.navbs:hover,
 .header-title:hover {
   color: white;
 }
